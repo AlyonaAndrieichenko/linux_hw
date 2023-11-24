@@ -1,0 +1,24 @@
+   0 nano fullscript.sh
+   1 ls -l
+   2 chmod 744 fullscript.sh 
+   3 ls -l
+   4 env
+   5 mv fullscript.sh /bin/alyona
+   6 alyona
+   7 nano fullscript.sh
+   8 nano /bin/alyona
+   9 alyona
+  10 ls /opt/mydate/
+  11 cat /opt/mydate/newmydate.txt 
+  12 tar --help
+  13 df -h > /tmp/1.txt
+  14 ps -ef > /tmp/2.txt
+  15 cd /tmp/
+  16 ls -l
+  17 tar -czf /opt/mydate/archive.tar.gz *.txt
+  18 ls -l /opt/mydate/
+  19 tar -xzf /opt/mydate/archive.tar.gz  -C /var/
+  20 ls -l /var/
+  21 ls -l /opt/mydate/
+  22 cd /
+  23 history > history22.txt
