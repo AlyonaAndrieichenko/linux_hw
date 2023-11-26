@@ -1,0 +1,10 @@
+   0 ls -la /tmp/
+   1 mkdir /tmp/logs/
+   2 cat /root/readme.txt >> /tmp/logs/test.log
+   3 ls / >> /tmp/logs/test2.log
+   4 cp /root/bench.py /tmp/logs
+   5 cd /tmp/logs
+   6 ls -la
+   7 tar -czf /var/archive2.tar.gz *.log bench.py
+   8 ls -la /var/
+   9 history >> hometask_22_11.txt
